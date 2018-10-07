@@ -1,6 +1,6 @@
 Package: gpdd
 Title: Download datasets from the Global Population Dynamics Database
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: as.person(c(
     "Carl Boettiger <cboettig@berkeley.edu> [aut, cre]", 
     "Zihao Li <zihao0104@berkeley.edu> [aut]",
@@ -15,5 +15,10 @@ LazyData: true
 RoxygenNote: 6.1.0
 Imports:
     readr
-VignetteBuilder: utils
-Suggests: testthat, utils
+VignetteBuilder:
+    utils,
+    knitr
+Suggests: testthat,
+    utils,
+    knitr,
+    rmarkdown
